@@ -7,8 +7,5 @@ def calculate_average(numbers):
     average = total / len(numbers)
     return average
 
-try:
-    result = calculate_average([])
-    print(result)
-except ValueError as e:
-    print(e)
+result = calculate_average([])
+print(result)
